@@ -55,10 +55,9 @@ public class MusicPlayerNames {
     public static int NO_ALBUMS_TOBE_PLAYED = 50;
     public static int NO_SKIPPING_SONGS = 500;
 
-    public static final String EXTERNAL_DIR =
-        Environment.getExternalStorageDirectory().toString();
+    public static final String EXTERNAL_DIR = "/mnt/sdcard";
     public static final String DELETESONG = EXTERNAL_DIR + "/toBeDeleted.amr";
-    public static final String GOLDENSONG = EXTERNAL_DIR + "/media_api/music/AMRNB.amr";
+    public static final String GOLDENSONG = EXTERNAL_DIR + "/AMRNB.amr";
     public static final String TOBEDELETESONGNAME = "toBeDeleted";
 
     public static int EXPECTED_NO_RINGTONE = 1;
