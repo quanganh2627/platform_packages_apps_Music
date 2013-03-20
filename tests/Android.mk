@@ -16,3 +16,6 @@ LOCAL_INSTRUMENTATION_FOR := Music
 LOCAL_SDK_VERSION := current
 
 include $(BUILD_PACKAGE)
+
+# Bundle into ATF package
+ATF_TEST_PACKAGES += MusicTests
