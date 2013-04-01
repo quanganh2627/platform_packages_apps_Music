@@ -34,6 +34,7 @@ import com.android.music.PlaylistBrowserActivity;
 import com.android.music.TrackBrowserActivity;
 
 import com.android.music.tests.MusicPlayerNames;
+import com.android.music.tests.MusicPlayerUtils;
 import com.android.music.tests.functional.TestSongs;
 
 /**
@@ -51,6 +52,7 @@ public class TestPlaylist extends ActivityInstrumentationTestCase <PlaylistBrows
     @Override 
     protected void setUp() throws Exception {   
         super.setUp(); 
+        MusicPlayerUtils.rescanSdcard(getActivity());
     }
     
     @Override 

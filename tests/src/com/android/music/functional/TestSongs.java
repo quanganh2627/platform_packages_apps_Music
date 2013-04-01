@@ -56,6 +56,7 @@ public class TestSongs extends ActivityInstrumentationTestCase <TrackBrowserActi
     @Override 
     protected void setUp() throws Exception {   
         super.setUp(); 
+        rescanSdcard();
     }
     
     @Override 
